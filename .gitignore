@@ -1,3 +1,21 @@
 chroma_db/
 benchmarks/
 corpus/
+
+# Secrets
+.env
+
+# Data, vector DBs and evaluation output
+corpus_*/
+benchmarks_*/
+chroma_db_*/
+ragas_eval/
+
+# Editor / environment
+.vscode/
+.venv/
+.python-version
+
+# Local copies and snapshots
+DECISION - Copy.md
+RAG_Assg_Legal_Documents_Starter_Dense_BM25_Reranker_*.ipynb
